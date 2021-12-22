@@ -5,6 +5,7 @@ const VehicleModule = require("./vehicle")
 let v = new VehicleModule.Vehicle("Mecury", "Sedan", "1965", "color", "mileage");
 console.log(v.make)
 
+import Vehicle from './vehicleBaseClass.js'
 class Car extends Vehicle {
     constructor (make, model, year, color, mileage) {
         super(make, model, year, color, mileage);
